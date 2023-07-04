@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Estilos del título del encabezado */
+  .header-title {
+    margin: 0;
+  }
+
+  /* Estilos de las imágenes del encabezado */
+  .logo-left {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 50px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto permite que la altura se ajuste proporcionalmente al ancho */
+    opacity: 100%;
+  }
+  
+  .logo-right {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto permite que la altura se ajuste proporcionalmente al ancho */
+    opacity: 100%;
+  }
+  
+
+  .header-title-contenido {
+    margin: 0;
+  }
+
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 110px;
+    margin-left: 110px;
+  }
+
+
+
+
+
+  
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TMarketUsed Principal</title>
+  <link rel="stylesheet" href="Views/Css/Index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    /* Agrega estilos personalizados para el carrusel */
+    .owl-carousel {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .owl-carousel .item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <script>
+    // Inicializa el carrusel cuando el documento esté listo
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:3
+          },
+          1000:{
+            items:5
+          }
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <a><img src="Views/Img/Logo_TMarketUsed.png" alt="Logo Izquierdo" class="logo-left"></a>
+    <h1 class="header-title">TMarketUsed</h1>
+    <nav>
+      <ul>
+        <li><a href="">Inicio</a></li>
+        <li><a href="catalago.php">Catalogo</a></li>
+        <li><a href="ayuda.php">Ayuda</a></li>
+        <li><a href="subasta.php">Subasta</a></li>
+
+        
+      </ul>
+    </nav>
+    <a href="registro.html" ><img src="Views/Img/User.jpeg" alt="Logo Derecho" class="logo-right" ></a>
+  </header>
+
+  <br>
+  
+  
+  
+
+  <!-- Carrusel -->
+  <div class="owl-carousel">
+    <div class="item"><img src="Views/Img/audifonos_gamer.png" alt="Imagen 1"></div>
+    <div class="item"><img src="Views/Img/consola exbox.jpg" alt="Imagen 2"></div>
+    <div class="item"><img src="Views/Img/teclado_gamer.png"Imagen 3"></div>
+    <div class="item"><img src="Views/Img/Portatil_gamer.png"Imagen 4"></div>
+    <div class="item"><img src="Views/Img/play_5.png" alt="Imagen 5"></div>
+    <div class="item"><img src="Views/Img/bocina gammer.jpg" alt="Imagen 6"></div>
+    <div class="item"><img src="Views/Img/control_xbox.png" alt="Imagen 7"></div>
+    <div class="item"><img src="Views/Img/pantallita_gamer.png" alt="Imagen 8"></div>
+    <div class="item"><img src="Views/Img/Acer Nitro 5 Portátil gaming.jpg" alt="Imagen 10"></div>
+    <div class="item"><img src="Views/Img/play_5.png" alt="Imagen 13"></div>
+  </div>
+
+  <!-- Resto del contenido -->
+  <!-- ... -->
+
+  <div class="card-textoinfo">
+  <h3>¿QUIENES SOMOS?</h3>
+  <p>
+    Bienvenido a TMarketUsed, la tienda online de compra, venta y subasta de productos tanto usados como nuevos. Nuestra página web tiene como objetivo vender productos de manera más sencilla y barata. En nuestra página podrás comprar tus productos y venderlos para así obtener tus ganancias. Esta es tu tienda, tu seguridad, es TMARKETUSED.
+  </p>
+</div>
+
+          
+          <br>
+          <br>
+          <br>
+          
+ <!-- footer -->
+  <!-- ... -->
+
+          <footer class="footer">
+            <div class="container">
+              <div class="footer-row">
+                <div class="footer-links">
+                  <h4>Compañia</h4>
+                  <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Nuestros servicios</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Afiliate</a></li>
+                  </ul>
+                </div>
+                <div class="footer-links">
+                  <h4>Ayuda</h4>
+                  <ul>
+                    <li><a href="#">Preguntas</a></li>
+                    <li><a href="#">Compras</a></li>
+                    <li><a href="#">Envios</a></li>
+                    <li><a href="#">Estatus de orden</a></li>
+                    <li><a href="#">Pago</a></li>
+                  </ul>
+                </div>
+                <div class="footer-links">
+                  <h4>Tienda</h4>
+                  <ul>
+                    <li><a href="#">Computadores</a></li>
+                    <li><a href="#">Consolas</a></li>
+                    <li><a href="#">Audifonos</a></li>
+                    <li><a href="#">Monitores</a></li>
+                  </ul>
+                </div>
+                <div class="footer-links">
+                  <h4>Siguenos</h4>
+                  <div class="social-link">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+</body>
+</html>

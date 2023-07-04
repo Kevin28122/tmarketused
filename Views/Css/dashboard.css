@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Estilos del título del encabezado */
+  .header-title {
+    margin: 0;
+  }
+  
+  /* Estilos del menú desplegable */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  /* Estilos del menú desplegable vertical */
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    width: 200px;
+    display: block;
+  }
+  
+  /* Estilos de las imágenes del encabezado */
+  .logo-left {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: auto;
+    opacity: 100%;
+  }
+  
+  .logo-right {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: auto;
+    opacity: 100%;
+  }
+  
+  .header-title-contenido {
+    margin: 0;
+  }
+  
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 110px;
+    margin-left: 110px;
+  }
+  
+  .title-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    height: 360px;
+    margin: 10px;
+    border-radius: 65px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+  }
+  
+  .card img {
+    width: 85%;
+    height: 175px;
+    margin:20px;
+  }
+  
+  .contenido-card {
+    padding: 7px;
+    padding-top: 0%;
+    text-align: center;
+  }
+  
+  .contenido-card h2 {
+    color: #000000;
+  }
+  
+  .contenido-card p {
+    line-height: 1.8;
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .contenido-card a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: transparent;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+  }
+  
+  .contenido-card a:hover {
+    background: transparent;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+
